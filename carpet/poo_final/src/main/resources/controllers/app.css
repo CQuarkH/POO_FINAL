@@ -1,0 +1,43 @@
+.root{
+   -fx-background-color: linear-gradient(to bottom, #F8B879, #FFC081);
+   -fx-font-family: "Open Sans";
+}
+.text-field {
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+}
+.text-field:focused {
+    -fx-background-color: -fx-focus-color, -fx-background ;
+}
+.button {
+  -fx-background-color: #FFFFFF; /* Green */
+  -fx-border: none;
+  -fx-color: white;
+  -fx-text-align: center;
+  -fx-text-decoration: none;
+  -fx-display: inline-block;
+}
+.table-view {
+    -fx-background-color: transparent;
+}
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+.table-view .column-header-background {
+    -fx-background-color: linear-gradient(to top, #F0F0F0, #FFFFFF);
+}
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+.table-view .table-cell{
+    -fx-border-color: transparent;
+}
+.table-row-cell: hover{
+    -fx-background-color: #D1ADAD;
+    -fx-text-background-color: #222222;
+}
+
